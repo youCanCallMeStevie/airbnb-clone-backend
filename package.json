@@ -1,0 +1,40 @@
+{
+  "name": "airbnb-clone-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youCanCallMeStevie/airbnb-clone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youCanCallMeStevie/airbnb-clone-backend/issues"
+  },
+  "homepage": "https://github.com/youCanCallMeStevie/airbnb-clone-backend#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "express-validator": "^6.9.2",
+    "fs-extra": "^9.0.1",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pdfmake": "^0.1.69",
+    "stream": "0.0.2",
+    "uniqid": "^5.2.0"
+  }
+}
